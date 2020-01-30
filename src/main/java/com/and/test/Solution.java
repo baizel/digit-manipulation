@@ -3,6 +3,13 @@ package com.and.test;
 import java.util.*;
 
 public class Solution {
+    public static int sum(List<Integer> list) {
+        int sum = 0;
+        for (int i : list) {
+            sum = sum + i;
+        }
+        return sum;
+    }
 
     /**
      * The following is the method where the solution shall be written
@@ -16,10 +23,10 @@ public class Solution {
             throw new NumberFormatException("No integers in given input");
         }
         digit.sort(Collections.reverseOrder());
-
+        int siblingSize = sum(new ArrayList<>(intLookUp.values()));
         StringBuilder allSiblings = new StringBuilder();
 
-        permutation(digit, intLookUp,new char[digit.size()],0,allSiblings);
+        permutation(digit, intLookUp,new char[siblingSize],0,allSiblings);
         allSiblings.deleteCharAt(allSiblings.length()-1); //delete the trailing comma
 
         return allSiblings.toString();
@@ -62,7 +69,7 @@ public class Solution {
 
 
     public static void main(String args[]) {
-        solution("632");
+        System.out.println(solution("6678"));
     }
 
 }
