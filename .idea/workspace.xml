@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395d9b3c-2566-466c-98d7-ef2e4a1c4e0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/and/test/TestIntegerExtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/and/test/TestPermutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/andtechtest_external/com/and/test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/andtechtest_external/com/and/test/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/andtechtest_external.iml" beforeDir="false" afterPath="$PROJECT_DIR$/andtechtest_external.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/and/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/and/test/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,14 +32,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.and.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestPermutations">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.and.test.Solution" />
       <module name="andtechtest_external" />
@@ -43,8 +70,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIntegerExtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="andtechtest_external" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.and.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.and.test" />
+      <option name="MAIN_CLASS_NAME" value="com.and.test.TestIntegerExtraction" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegerExtraction.testDigitExtractionWithDigitOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="andtechtest_external" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.and.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.and.test" />
+      <option name="MAIN_CLASS_NAME" value="com.and.test.TestIntegerExtraction" />
+      <option name="METHOD_NAME" value="testDigitExtractionWithDigitOnly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPermutations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="andtechtest_external" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.and.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.and.test" />
+      <option name="MAIN_CLASS_NAME" value="com.and.test.TestPermutations" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPermutations" />
+        <item itemvalue="JUnit.TestIntegerExtraction" />
+        <item itemvalue="JUnit.TestIntegerExtraction.testDigitExtractionWithDigitOnly" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -71,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580408294769</updated>
-      <workItem from="1580408298586" duration="9920000" />
+      <workItem from="1580408298586" duration="14188000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial solution">
       <created>1580422078213</created>
@@ -80,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580422078213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix bug with duplicate numbers">
+      <created>1580422864056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580422864056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,29 +171,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial solution" />
+    <MESSAGE value="fix bug with duplicate numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with duplicate numbers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="571" y="152" width="767" height="808" key="CommitChangelistDialog2" timestamp="1580422078003">
+    <state x="571" y="152" width="767" height="808" key="CommitChangelistDialog2" timestamp="1580422863898">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="571" y="152" width="767" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1580422078003" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1580422764981">
+    <state x="571" y="152" width="767" height="808" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1580422863898" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1580428195947">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1580422764981" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1580422764980">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1580428195947" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1580428195946">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1580422764980" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1580422764979">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1580428195946" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1580428195944">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1580422764979" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1580422764981">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1580428195944" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1580428195947">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1580422764981" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1580428195947" />
     <state width="1874" height="341" key="GridCell.Tab.1.bottom" timestamp="1580422671281">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -127,5 +211,21 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1874" height="341" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1580422671281" />
+    <state x="443" y="132" width="1024" height="848" key="SettingsEditor" timestamp="1580427392287">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="443" y="132" width="1024" height="848" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1580427392287" />
+    <state x="669" y="451" width="572" height="211" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580427456572">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="669" y="451" width="572" height="211" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1920.1050@0.30.1920.1050" timestamp="1580427456572" />
+    <state x="734" y="260" width="442" height="592" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580427435959">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="734" y="260" width="442" height="592" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1580427435959" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1580427403020">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1580427403020" />
   </component>
 </project>
